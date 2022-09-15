@@ -1,0 +1,37 @@
+<style>
+#tamanhoTitulo {
+    font-size: 65px;
+    color: orange;
+}
+#corLista {
+    background-color:blueviolet;
+}
+.corDeFundo {
+    background-color:blueviolet;
+}
+body {
+    background-color: black;
+    font-size: 16px;
+}
+h1{
+    font-family: sans-serif;
+}
+p   {
+    font-weight: 600;
+    font-size: 3em;
+}
+ul {
+    font-style: italic; 
+    line-height: 2;
+    text-align: center;
+}
+#amarelo {
+    color: yellow;
+}
+#vermelho {
+    color: red;
+}
+#marrom {
+    color: brown;
+}
+</style>
