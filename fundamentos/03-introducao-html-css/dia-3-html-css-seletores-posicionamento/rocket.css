@@ -1,0 +1,27 @@
+div:hover {
+    border: 2px solid blue;
+}
+div:nth-of-type(1) > h3 {
+    background-color: blueviolet;
+    color: darkblue;
+    font-style: italic;
+}
+div:nth-of-type(2) > h3 {
+    background-color: aqua;
+    color: darkgoldenrod;
+}
+div:nth-of-type(3) > h3 {
+    background-color: bisque;
+    color: aquamarine;
+    padding: 2%;
+    font-style: italic;
+}
+div:nth-of-type(4) > h3 {
+    background-color: brown;
+    color: darkgray;
+}
+div:nth-of-type(5) > h3 {
+    background-color: chocolate;
+    color: darkseagreen;
+    font-style: italic;
+}
