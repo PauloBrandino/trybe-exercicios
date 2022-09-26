@@ -2,11 +2,15 @@
 
 let primoNumber = 0;
 
-    for (index = 2; index <= 50; index += 1) {
-        if (index%index === 0) {
-            if (index > primoNumber) {
-                primoNumber = index;
+    for (let index = 2; index <= 50; index += 1) {
+        let ePrimo = true;
+        for (let indexDividor = 2; indexDividor < index; indexDividor += 1){
+            if (index%indexDividor === 0){
+                ePrimo = false;
             }
+        }
+        if (ePrimo) {
+            primoNumber = index
         }
     }
 console.log(primoNumber);
